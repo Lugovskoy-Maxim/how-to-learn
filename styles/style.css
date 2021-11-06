@@ -16,6 +16,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  background-color: #f2f2f2 ;
   /* выше установили ограничения для секции */
 }
 
@@ -43,32 +44,90 @@
   font-size: 18px;
   line-height: 25px;
   font-weight:: normal;
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
   z-index: 1;
 }
 
 .header__link {
-
+  text-decoration: none #2f80ed;
 }
 
 .header__square-pic {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  position: absolute;
-  right: 0;
-  top: 64px;
+    position: absolute;
+    right: 0;
+    top: 64px;
 }
 
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:right;
+  background-image: url(/images/header-image.png);
 }
+
+
+/*----------------contetn------------- */
+.content {
+  position: relative;
+}
+
+.description {
+  margin: 100px 0 100px;
+}
+
+.two-columns {
+  flex-direction: row;
+  margin: 0 auto 0;
+  justify-content: space-between;
+  display: flex;
+  width: 80%;
+  min-width: 784px;
+  min-height: 387px;
+  align-items: baseline;
+}
+
+
+
+.two-columns_brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2f80ed;
+}
+
+.two-columns_main-text {
+  flex-direction: column;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__margin_b {  /* заменить на псевдоклас */
+  margin-bottom: 30px;
+}
+
+.main-text__paragraph {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.main-text__span-accent {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
 
 
 
