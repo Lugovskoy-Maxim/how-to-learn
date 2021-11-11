@@ -205,13 +205,13 @@
   background-position: left 0 bottom 0;
   min-height: 890px;
   margin-top: 100px;
+  padding-top: 100px;
 }
 
 
 .feynman__title {
   text-align: center;
   margin: auto;
-  padding: 100px 0 0 0;
   width: 648px;
   font-size: 120px;
   font-weight: bold;
