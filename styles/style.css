@@ -231,10 +231,11 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  text-decoration: none;
+  text-decoration: none #2f80ed;
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
+
 }
 
 /*---------------------kaufman--------------------*/
@@ -348,7 +349,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
   text-decoration: none;
 }
 
