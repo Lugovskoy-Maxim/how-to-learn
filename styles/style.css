@@ -204,7 +204,7 @@
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-size: 867px 637px;
-  background-position: left 0 bottom 0;
+  background-position: left 0 bottom -1px;
   min-height: 890px;
   box-sizing:border-box;
 }
@@ -363,4 +363,16 @@
   margin-bottom: -2px;
   height: 16px;
   width: 16px;
+}
+
+.footer__column_content_social {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
