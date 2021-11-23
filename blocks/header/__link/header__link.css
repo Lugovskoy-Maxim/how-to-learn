@@ -1,3 +1,8 @@
 .header__link {
   text-decoration: none #2f80ed;
+  transition: opacity .3s linear;
+}
+
+.header__link:hover {
+  opacity: .5;
 }
