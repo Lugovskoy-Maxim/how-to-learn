@@ -83,7 +83,7 @@
 }
 
 
-/*----------------contetn------------- */
+/*----------------contetn------------- нужна засунуить куда нибудь */
 .content {
   position: relative;
   justify-content: center;
@@ -117,7 +117,7 @@
   min-width: 784px;
 }
 
-.two-columns__paragraph {
+.two-columns__paragraph{
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -125,18 +125,18 @@
   margin-bottom: 30px;
 }
 
-.two-columns__paragraph:last-child {
+.two-columns__paragraph:last-child{
   margin-bottom: 0px;
 }
 
-.two-columns__span-accent {
+.two-columns__span-accent{
   line-height: 34px;
   font-weight: bold;
 }
 
 /*------------------------------digits----------------*/
 
-.digits {
+.digits{
   position: relative;
   margin: 100px auto;
   align-items: center;
@@ -235,7 +235,6 @@
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
-
 }
 
 /*---------------------kaufman--------------------*/
