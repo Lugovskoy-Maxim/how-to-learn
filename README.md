@@ -16,3 +16,7 @@
 * HTML5;
 * CSS3;
 * БЭМ (Nested);
+
+#### Полезные ссылки:
+[Ссылка на проект](https://lugovskoy-maxim.github.io/how-to-learn/)
+[Написать письмо](mailto:lugoskou.myu@yandex.ru)
