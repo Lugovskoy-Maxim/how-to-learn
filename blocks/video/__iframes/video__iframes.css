@@ -3,4 +3,7 @@
   top: 50px;
   justify-content: center;
   display: flex;
+  list-style-type:none;
+  flex-wrap: wrap;
+  margin: auto;
 }

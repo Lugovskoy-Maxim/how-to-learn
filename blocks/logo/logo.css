@@ -2,5 +2,10 @@
   height: 32px;
   width: 182px;
   position: absolute;
+  transition: opacity .3s linear;
+}
+
+.logo:hover {
+  opacity: .5;
 }
 
