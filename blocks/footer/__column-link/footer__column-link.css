@@ -4,8 +4,7 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-  transition: opacity .3s linear;
-  align-items: center;
+  margin-bottom: 10px;
 }
 
 .footer__column-link:hover {
